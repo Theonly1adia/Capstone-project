@@ -9,8 +9,8 @@
 
 .announcement-bar .heading {
     position: absolute;
-    background-color: aqua;
-    height: 100%;
+    background-color: white;
+    height: 0 px;
     display: flex;
     align-items: center;
     padding: 0 24px;
@@ -23,6 +23,8 @@
     display: flex;
     list-style: none;
     margin: 0;
+    transform:  translateX(-50);
+    animation: scroll 25s infinite linear;
 }
 
 .announcement-bar ul li {
@@ -30,3 +32,38 @@
     padding: 10px 24px;
     color: 494949;
 }
+
+#logo{
+    height: 50px; width: 50px;
+}
+
+@keyframes scroll {
+from {
+    transform: translateX(100%);
+}
+
+to {
+    transform: translateX(-1000px);
+}
+}
+
+.navbar {
+
+    overflow: hidden;
+  }
+
+.navbar a {
+    float: left;
+    color: skyblue bold;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
