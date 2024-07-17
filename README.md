@@ -15,15 +15,17 @@
 ## Roadmap
 
 - [x] Create Wireframe
-- [ ] Code the first page.
-- [ ] Code the second.
-- [ ] Code the third page.
+- [x] Code the first page.
+- [x] Code the second.
+- [x] Code the third page.
 - [ ] Add JS
 
 ## Wireframe
 
 An image of your wireframe (Required)
-![wireframe of index.html](img/wireframe.png)
+
+<img src="img/wireframe.png">
+![wireframe of index.html](/images/wireframe.png)
 
 ## Contact
 
@@ -40,3 +42,4 @@ adia.holt@gmail.com
 * [w3schools Cards](https://www.w3schools.com/bootstrap5/bootstrap_cards.php)
 * [w3schools Navs](https://www.w3schools.com/bootstrap5/bootstrap_navs.php)
 * [w3schools For Loops](https://www.w3schools.com/js/js_loop_for.asp)
+* [Css Scan For Box Shadow Examples](https://getcssscan.com/css-box-shadow-examples)
