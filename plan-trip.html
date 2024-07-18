@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <div class="submit-form">
+
+    <div class="navbar">
+        <div class="logo">
+             <h1>Geaux Travel</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="rates.html">Rates</a></li>
+                <li><a href="plan-trip.html">Plan Your Trip</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
         <h2>Let's Start Planning</h2>
         <p>Fill out the form below and we"ll respond via email within 72 hours.</p>
+    </div>
+
+    <div class="submit-form">
         <form action="#">
             <label for="name">Full Name</label><br>
             <input type="text" id="fullname" placeholder="Full Name"><br><br>
@@ -18,18 +39,35 @@
             <input type="number" id="phone-number"><br><br>
             <label for="phone-number">Where would you like to go?</label><br>
             <input type="number" id="phone-number"><br><br>
-            <label for="phone-number">How many travelers?</label><br>
+            <label for="phone-number">How many travelers?</label>
+            <br>
             <input type="number" id="phone-number"><br><br>
-            <label for="phone-number">What type of travel planning do you need assistance wit?</label><br>
-            <input type="number" id="phone-number"><br><br>
+            <label for="phone-number">What type of travel planning do you need assistance with?</label><br>
+            
+            <input type="radio" id="rad1">
+            <label for="rad1">Corporate Travel</label><br>
+            <input type="radio" id="rad2">
+            <label for="rad2">Destination Wedding Travel</label><br>
+            <input type="radio" id="rad3">
+            <label for="rad3">Multi-destination</label><br>
+            <input type="radio" id="rad4">
+            <label for="rad4">First class or Private Air travel</label><br>
+            <input type="radio" id="rad5">
+            <label for="rad5">Hotel Only</label><br>
+            <input type="radio" id="rad6">
+            <label for="rad6">Comprehensive (Hotels, Transfers, Tours, Excursions)</label><br>
             <label for="phone-number">What is your departure airport</label><br>
             <input type="number" id="phone-number" placeholder="Phone Number"><br><br>
             <label for="phone-number">Would you like to be added to our Monthly newsletter?</label><br>
-            <input type="number" id="phone-number" placeholder="Phone Number"><br><br>
+            <input type="radio" id="rad7">
+            <label for="rad7">Yes, add me!</label><br>
 
         </form>
     </div>
       
-      
+    <div class="footer">
+        <a href="#">Copywright</a>
+        <a href="#">Terms and Conditions</a>
+    </div>
 </body>
 </html>
