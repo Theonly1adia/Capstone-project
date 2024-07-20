@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); 
 
 *{
     padding: 0px;
@@ -13,13 +13,13 @@
     width: 100%;
     height: 80px;
     background-color: lightskyblue;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     color: #000;
 }
 
 .menu ul{
+
     display: flex;
     align-items: center;
 }
@@ -43,7 +43,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: absolute; 
     width: max-content;
 }
 
@@ -51,13 +51,16 @@
     border: 1px solid black;
     width: max-content;
     text-align: center;
-    display: inline-block;
-    margin: 5px;
+    display:inline-block;
+    margin: 10px;
+
 }
 
 .card img{
     width: 300px;
-    padding: 5px;
+    padding: 10px;
+    
+
 }
 
 .card-text1{
@@ -78,7 +81,7 @@ button:hover{
     box-shadow: 0 0 5px 5px #e1701a inset;
 }
 
-.cartImg{
+/* .cartImg{
     width: 200px;
 }
 
@@ -116,4 +119,4 @@ button:hover{
 .cart-item button {
     margin: 0;
     padding: 2px 5px;
-}
+}  */
