@@ -26,17 +26,23 @@ function clearCart() {
 
 function displayCart() {
     const cartContainer = document.getElementById('cart-items');
-    cartContainer.innerHTML = '';
+    cartContainer.innerHTML = ''; 
     
-    cart.forEach((item, index) => {
+    
+    for(let i=0; i<cart.length; i++){
+        item = cart[i];
+
         const cartItem = document.createElement('div');
         cartItem.className = 'cart-item';
         cartItem.innerHTML = `
             <p>${item.product} - $${item.price}</p>
-            <button onclick="removeFromCart(${index})">Remove</button>
+            <button onclick="removeFromCart(${i})">Remove</button>
         `;
         cartContainer.appendChild(cartItem);
-    });
+
+    };
+        
+    
     
     document.getElementById('total').innerText = total;
 }
