@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="addToCart.css"> 
+    
    
     
 </head>
 <body>
-
-    
     <div class="navbar">
         <div class="logo">
             <h1>Geaux Travel</h1>
@@ -24,7 +23,8 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-
+    </div>
+        
         <div class="container">
             <div class="card" id="item1">
                 <img src="/images/plane.jpeg" alt="picture of a plane">
@@ -33,7 +33,7 @@
                     <p class="card-text1">Package includes<br>
                     -services finding hotel, flight or tours only<br>
                     -up to 2 people<br>
-                    -Only elect one option</p>
+                    -Only Select one option</p>
                 </div>
                 <button onclick="addToCart('Product 1', 100 )">Purchase now</button>
             </div>
@@ -43,6 +43,7 @@
                     <p class="card-text1"><strong>$300</strong></p>
                     <p class="card-text1">Package includes<br>
                     -services finding hotel, flight and tours<br>
+                    <br>
                     -up to 4 people</p>
                 </div>
                 <button onclick="addToCart('Product 2',  300)">Purchase now</button>
@@ -59,12 +60,15 @@
                 <button onclick="addToCart('Product 3', 600)">Purchase now</button>
             </div>
         </div>
+    
         <div class="cart" id="cart">
             <h2>CART</h2>
             <div id="cart-items"></div>
             <p>Total: $<span id="total">0</span></p>
             <button onclick="clearCart()">Clear Cart</button>
         </div>
+    
+    
         <script src="addToCart.js"></script>
 </body>
 </html>
