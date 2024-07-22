@@ -9,6 +9,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.body{
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(images/beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .navbar{
     width: 100%;
     height: 80px;
